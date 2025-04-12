@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg_section{
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/tree.jpg);
+}
+.inner_content{
+    background-color: aliceblue;
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+}
+.inner_content:hover{
+    background-color: cadetblue;
+    color: white;
+}
+.spacing{
+    padding-top: 50px;
+    padding-left: 120px;
+}
+
+.box{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    width: 50%;
+    margin: 20px 50px; 
+    padding: 40px;      
+    border-radius:20px 50px 40px 60px;
+}
+.circle{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border:10px double red;
+    /* border-radius: 10px 50px 80px; */
+}
+.circle:hover{
+    background-color: aquamarine;
+    border-radius: 0%;
+    border: 0px;
+}
+.inputBox{
+    margin: 100px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.inputBox:focus{
+    outline: none;
+}
