@@ -1,0 +1,25 @@
+Font Awesome icons 
+-version 4 (free)
+- <i></i> / <span></span>
+- fa fa-iconName
+-bootstrap 
+-flat icon
+
+Google fonts 
+
+
+
+CDN (Content delivery Network)
+
+
+Gradient
+-liner-gradient 
+-radial-gradient
+
+position 0% to 100%
+
+
+https://cssgradient.io/
+https://fonts.google.com/
+https://www.w3schools.com/icons/fontawesome_icons_intro.asp
+https://fontawesome.com/v4/icons/
