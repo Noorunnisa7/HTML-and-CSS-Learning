@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    color: blueviolet;
+}
+.heading::first-letter{
+    color: red;
+}
+
+p::first-line{
+    color: red;
+    font-size: 20px;
+}
+.myChildCss h2{
+    text-align: center;
+    background-color: tomato;
+    border: 1px solid;
+    padding: 10px 0px;
+}
+.myChildCss h2:first-child{
+    color: white;
+    background-color: black;
+}
+.myChildCss h2:last-child{
+    color: red;
+    background-color: #fff;
+}
+.myChildCss h2:nth-child(6){
+    background-color: yellow;
+}
+.myChildCss h2:nth-child(7){
+    background-color: #00bfff;
+}
+
+.box{
+    background-color: black;
+    width: 24.50%;
+    height: 200px;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+
+}
+
+.boxes .box:nth-child(1){
+    background-color: pink;
+}
+.boxes .box:nth-child(4){
+    background-color: blue;
+}
+.boxes .box:last-child{
+    background-color: rgb(177, 239, 51);
+}
