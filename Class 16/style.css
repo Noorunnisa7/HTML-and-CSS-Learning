@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.myheading::after{
+    content: " Welcome to my website ";
+}
+
+.myimg{
+    width: 30%;
+    position: relative;
+}
+.myimg img{
+    width: 100%;
+}
+
+/* .overlay{
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity:50%;
+} */
+
+.myimg::before{
+    content :"";
+    background-color: aliceblue;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity:50%;
+}
+
+.hovereffect{
+    width: 30%;
+    position: relative;
+}
+.hovereffect img{
+    width: 100%;
+}
+.hovereffect::after{
+    content: "";
+    /* background-color: #f1f1f1; */
+    border: 10px solid #fff;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    right: 10%;
+    bottom: 10%;
+    /* top: 0;
+    bottom: 0;
+    left: 100%;
+    right: 0; */
+    /* right: 100%; */
+    opacity: 30%;
+    transition: 0.3s;
+}
+.hovereffect:hover::after{
+    right: 0; 
+     left: 0;
+     top: 0;
+     bottom: 0;
+}

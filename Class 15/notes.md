@@ -20,3 +20,9 @@ animation
 media query 
 before and after effects 
 web page 
+
+input 
+
+.class::placeholder{
+    
+}
