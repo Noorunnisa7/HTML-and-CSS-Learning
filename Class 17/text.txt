@@ -1,0 +1,19 @@
+Property 
+-animation-name 
+-animation-duration 
+-animation-timing-function  (linear , ease)  ease in / ease out / ease in out 
+-animation-iteration-count
+
+
+@keyframes AnimationName {
+    from{
+
+    }
+    to{
+
+    }
+}
+
+display flex 
+justify center 
+align items center

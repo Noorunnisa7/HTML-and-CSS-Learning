@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    animation-name:colorBox;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorBox {
+    0%{
+        background-color: yellowgreen;
+    }
+    40%{
+        background-color: black;
+    }
+    50%{
+        background-color: tomato;
+    }
+    80%{
+        background-color: purple;
+    }
+    100%{
+        background-color: violet;
+    }
+}
+
+/* @keyframes colorBox {
+    from{
+        background-color: yellowgreen;
+    }
+    to{
+        background-color: violet;
+    }
+} */
+
+.rotate{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* transform: translate(-50%,-50%); */
+    translate: -50% -50%;
+    animation-name: rotate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes rotate {
+    from{
+        transform: rotate(0deg);
+        color: sienna;
+    }
+    to{
+        transform: rotate(360deg);
+        color: black;
+
+    }
+}
+.easeIn{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    animation-name: IN;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+}
+
+.easeout{
+    background-color: #ec0d0d;
+    width: 100px;
+    height: 100px;
+    animation-name: out;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+.easeInOut{
+    background-color: coral;
+    width: 100px;
+    height: 100px;
+    animation-name: IN-out;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes IN {
+    from{
+       margin-left: 0; 
+    }
+    to{
+        margin-left: 60%;
+    }
+}
+
+@keyframes out {
+    from{
+       margin-left: 0; 
+    }
+    to{
+        margin-left: 60%;
+    }
+}
+@keyframes IN-out {
+    from{
+       margin-left: 0; 
+    }
+    to{
+        margin-left: 60%;
+    }
+}
